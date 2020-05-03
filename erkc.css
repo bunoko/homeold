@@ -1,0 +1,9 @@
+/* Code tidied up by ScrapBook */
+@media print {
+  body { background-color: white; }
+  a[href]::after { content: none !important; }
+  iframe, .site-header .siteheader-container > :not(.logo-container), .kl-slideshow, .sidebar, .action_box, .btn, .thescreenshot, .adbox.video, .media-container, .latest_posts, .ts-pt-testimonials__img, .widget_tp_widget_recent_tweets, .social-share, .social-icons, .circlehover, .recentwork_carousel, #totop, .kl-mask--mask3, .eBlog .itemComments, .eBlog .itemReadMore, .eBlog .itemTagsBlock, .eBlog .itemTagsBlock, .eBlog .userItemTagsBlock, .related-articles, #respond { display: none; }
+  .logo-container { float: none; width: 100%; overflow: hidden; }
+  .site-logo { float: none; margin: 0px auto; }
+  [class*="col-"], .grid-ibx__item { width: 100%; }
+}
